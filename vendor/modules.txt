@@ -48,11 +48,10 @@ github.com/klauspost/compress/s2
 github.com/klauspost/compress/snappy
 github.com/klauspost/compress/zstd
 github.com/klauspost/compress/zstd/internal/xxhash
-# github.com/p2064/pkg v0.0.0-20231015130921-835d3ecbaa3a
-## explicit; go 1.21.2
+# github.com/p2064/pkg v0.0.0-20231015212930-4bdfaa7d0bdb
+## explicit; go 1.21
 github.com/p2064/pkg/config
 github.com/p2064/pkg/db
-github.com/p2064/pkg/logs
 # github.com/pierrec/lz4/v4 v4.1.15
 ## explicit; go 1.14
 github.com/pierrec/lz4/v4

@@ -3,7 +3,7 @@ module github.com/p2064/changer
 go 1.21
 
 require (
-	github.com/p2064/pkg v0.0.0-20231015130921-835d3ecbaa3a
+	github.com/p2064/pkg v0.0.0-20231015212930-4bdfaa7d0bdb
 	github.com/segmentio/kafka-go v0.4.44
 	golang.org/x/net v0.17.0
 	google.golang.org/grpc v1.58.3
