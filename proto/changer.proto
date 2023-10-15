@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package="../proto";
+
+message ChangeEventRequest {
+    int64 id = 1;
+    string time = 2;
+    string place = 3;
+    int64 maxPlayers = 4;
+}
+
+message ChangeEventResponse {
+    int64 status = 1;
+    string error = 2;
+}
+
+service ChangerService {
+  rpc ChangeEvent(ChangeEventRequest) returns (ChangeEventResponse) {}
+}
